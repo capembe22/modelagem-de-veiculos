@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.7">
+ <project-name>ALUGUELDEVEICOLOSMODELAGEM</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="Modelo de Dados" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="24a4bed0-bce0-4143-be90-1b63c4786144" name="VEICULOS" objectType="TABLE" physicalName="VEICULOS" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="cc3fbfa5-ba94-48e1-9129-0e8efa9ef7aa" autoIncrement="false" autoIncrementSequenceName="VEICULOS_Id_veiculos_seq" defaultValue="" name="Id_veiculos" nullable="0" physicalName="Id_veiculos" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="8de506ce-f9eb-4b50-acfc-debaf1451fc4" autoIncrement="false" autoIncrementSequenceName="VEICULOS_status_atual_seq" defaultValue="" name="status_atual" nullable="0" physicalName="status_atual" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-7" userDefinedTypeUUID="936cd049-d1df-44fc-ab05-b47cabe09060" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="9ae22761-4c6a-4864-a130-c2fd53316af7" autoIncrement="false" autoIncrementSequenceName="VEICULOS_nr_ativo_seq" defaultValue="" name="nr_ativo" nullable="0" physicalName="nr_ativo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="c8fe30b4-f52f-4b01-a6eb-006804802720" autoIncrement="false" autoIncrementSequenceName="VEICULOS_info_rodizio_seq" defaultValue="" name="info_rodizio" nullable="0" physicalName="info_rodizio" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="fda15239-47ba-4226-af12-b164ea577645" autoIncrement="false" autoIncrementSequenceName="VEICULOS_tipo_veiculo_seq" defaultValue="" name="tipo_veiculo" nullable="0" physicalName="tipo_veiculo" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="a366baef-f8f7-46bd-975d-8ab374667a71" autoIncrement="false" autoIncrementSequenceName="VEICULOS_tipo_habilitacao_seq" defaultValue="" name="tipo_habilitacao" nullable="0" physicalName="tipo_habilitacao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="19dd80bb-0123-4aac-8cd0-7cd191eacccf" autoIncrement="false" autoIncrementSequenceName="VEICULOS_nr_apoliceseguro_seq" defaultValue="" name="nr_apoliceseguro" nullable="0" physicalName="nr_apoliceseguro" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="0d1c8d4a-242f-4066-a86a-91d1c5ed9198" autoIncrement="false" autoIncrementSequenceName="VEICULOS_km_atual_seq" defaultValue="" name="km_atual" nullable="0" physicalName="km_atual" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="4bc7e874-fdfa-4b7e-aea6-e6f645b15075" autoIncrement="false" autoIncrementSequenceName="VEICULOS_data_compra_seq" defaultValue="" name="data_compra" nullable="0" physicalName="data_compra" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="f44c0c93-929e-481b-8fa9-829fc5903e20" autoIncrement="false" autoIncrementSequenceName="VEICULOS_cor_seq" defaultValue="" name="cor" nullable="0" physicalName="cor" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="5471bcb6-16ac-4619-aee5-0cdb1548508b" autoIncrement="false" autoIncrementSequenceName="VEICULOS_fabricante_seq" defaultValue="" name="fabricante" nullable="0" physicalName="fabricante" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL13" populated="true" UUID="724c6ef7-6c31-4a0e-81f3-6db974730ac3" autoIncrement="false" autoIncrementSequenceName="VEICULOS_seguradora_seq" defaultValue="" name="seguradora" nullable="0" physicalName="seguradora" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL14" populated="true" UUID="d1de9bbf-58a3-4267-b388-5d6865ed5382" autoIncrement="false" autoIncrementSequenceName="VEICULOS_nr_identificacao_seq" defaultValue="" name="nr_identificacao" nullable="0" physicalName="nr_identificacao" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL15" populated="true" UUID="c92b38c8-32a5-4023-9bed-2de988ee2a20" autoIncrement="false" autoIncrementSequenceName="VEICULOS_ano_modelo_seq" defaultValue="" name="ano_modelo" nullable="0" physicalName="ano_modelo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX16" populated="true" UUID="a00a16b8-b7fd-4dd5-b171-ff4c590b978c" clustered="false" name="VEICULOS_pk" physicalName="VEICULOS_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC17" populated="true" UUID="0d1bda3a-d927-4b52-8a42-bf688c7834eb" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="Id_veiculos" physicalName="Id_veiculos" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB18" populated="true" UUID="582c1f78-9212-4eb5-8116-3e3c46c831d2" name="VEICULO_BENEFICIO" objectType="TABLE" physicalName="VEICULO_BENEFICIO" >
+   <remarks></remarks>
+   <folder id="FOLTAB181" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL19" populated="true" UUID="a243194e-3259-4877-a13e-853ff4ec843b" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_ID_BENEFICIO_seq" defaultValue="" name="ID_BENEFICIO" nullable="0" physicalName="ID_BENEFICIO" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="755ffc2a-25e3-42a3-bac1-b1e8020da6e2" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_id_beneficiario_seq" defaultValue="" name="id_beneficiario" nullable="0" physicalName="id_beneficiario" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="48d2aef5-fada-447e-ae1b-f69195ecba19" autoIncrement="false" autoIncrementSequenceName="VEICULOS_Id_veiculos_seq" defaultValue="" name="Id_veiculos" nullable="0" physicalName="Id_veiculos" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="fcf85286-3a2e-44c4-ba04-b0645f179bcf" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_data_entrega_seq" defaultValue="" name="data_entrega" nullable="0" physicalName="data_entrega" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL23" populated="true" UUID="9defe6fd-b138-4432-a1b3-82a55281850b" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_data_devolucao_seq" defaultValue="" name="data_devolucao" nullable="0" physicalName="data_devolucao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL24" populated="true" UUID="a91eb49d-f4a3-4961-98f1-5a9fb833fdf6" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_uso_fds_seq" defaultValue="" name="uso_fds" nullable="0" physicalName="uso_fds" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-7" userDefinedTypeUUID="936cd049-d1df-44fc-ab05-b47cabe09060" >
+     <remarks></remarks>
+    </column>
+    <column id="COL25" populated="true" UUID="c2b6f1e4-ff9f-438c-be9e-8fabf8f2ec39" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_id_motorista_seq" defaultValue="" name="id_motorista" nullable="0" physicalName="id_motorista" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL26" populated="true" UUID="e9cea347-f26f-42df-9290-6858fceeceda" autoIncrement="false" autoIncrementSequenceName="VEICULO_BENEFICIO_local_vaga_seq" defaultValue="" name="local_vaga" nullable="0" physicalName="local_vaga" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB183" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB182" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB184" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX27" populated="true" UUID="59cc1466-bf61-445d-8dfb-bb81a9277a44" clustered="false" name="VEICULO_BENEFICIO_pk" physicalName="VEICULO_BENEFICIO_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC28" populated="true" UUID="b68a0286-eb5a-4bbb-b782-f98e4ee93b51" ascendingOrDescending="UNSPECIFIED" column-ref="COL19" name="ID_BENEFICIO" physicalName="ID_BENEFICIO" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB29" populated="true" UUID="88720551-c257-4350-a18c-5d5d0af1ba1e" name="HISTORICO" objectType="TABLE" physicalName="HISTORICO" >
+   <remarks></remarks>
+   <folder id="FOLTAB291" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL30" populated="true" UUID="eb251ade-33fb-4a92-94ee-a6735aac7b57" autoIncrement="false" autoIncrementSequenceName="HISTORICO_ID_HISTORICO_seq" defaultValue="" name="ID_HISTORICO" nullable="0" physicalName="ID_HISTORICO" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    <column id="COL31" populated="true" UUID="7362a9a7-af0a-4db5-b992-de2f4c1fc56a" autoIncrement="false" autoIncrementSequenceName="HISTORICO_id_responsavel_seq" defaultValue="" name="id_responsavel" nullable="0" physicalName="id_responsavel" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL32" populated="true" UUID="7b0e2665-c7ff-43af-9792-b6831b3b5d45" autoIncrement="false" autoIncrementSequenceName="HISTORICO_data_envento_seq" defaultValue="" name="data_envento" nullable="0" physicalName="data_envento" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL33" populated="true" UUID="36329965-af41-43fd-a6f3-8fc92cc75a14" autoIncrement="false" autoIncrementSequenceName="HISTORICO_desc_evento_seq" defaultValue="" name="desc_evento" nullable="0" physicalName="desc_evento" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL34" populated="true" UUID="4458d6f4-006b-4872-96f0-b9f900f80472" autoIncrement="false" autoIncrementSequenceName="HISTORICO_quilomentragem_seq" defaultValue="" name="quilomentragem" nullable="0" physicalName="quilomentragem" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL35" populated="true" UUID="032803f8-42c5-4f18-b15e-bee02e70182d" autoIncrement="false" autoIncrementSequenceName="HISTORICO_valor_seq" defaultValue="" name="valor" nullable="0" physicalName="valor" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL36" populated="true" UUID="7667cbaf-e678-462f-99c5-301f72a63f73" autoIncrement="false" autoIncrementSequenceName="HISTORICO_nr_notafiscal_seq" defaultValue="" name="nr_notafiscal" nullable="0" physicalName="nr_notafiscal" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL37" populated="true" UUID="0f286bb9-c4c2-4eea-b2d0-a5236de0029e" autoIncrement="false" autoIncrementSequenceName="HISTORICO_obs_seq" defaultValue="" name="obs" nullable="0" physicalName="obs" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL38" populated="true" UUID="554ac19d-9429-45f8-bada-6147a9a1c17e" autoIncrement="false" autoIncrementSequenceName="VEICULOS_Id_veiculos_seq" defaultValue="" name="Id_veiculos" nullable="0" physicalName="Id_veiculos" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB293" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB292" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB294" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX39" populated="true" UUID="68d40a1d-0a73-4d0d-9def-2ad465ae6cbc" clustered="false" name="HISTORICO_pk" physicalName="HISTORICO_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC40" populated="true" UUID="717f27f4-8602-4cb7-94bf-d5e5b28c8036" ascendingOrDescending="UNSPECIFIED" column-ref="COL30" name="ID_HISTORICO" physicalName="ID_HISTORICO" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL41" populated="true" UUID="df81b76a-9ad1-4999-a27b-fb905a7500a1" deferrability="7" deleteRule="3" fk-table-ref="TAB18" fkCardinality="7" identifying="false" name="VEICULOS_VEICULO_BENEFICIO_fk" physicalName="VEICULOS_VEICULO_BENEFICIO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP42" populated="true" UUID="fcbb1bee-8342-49ac-b74c-8581256fc9c5" fk-column-ref="COL21" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL43" populated="true" UUID="8945080b-5f07-4507-8307-edca26edd16a" deferrability="7" deleteRule="3" fk-table-ref="TAB29" fkCardinality="7" identifying="false" name="VEICULOS_HISTORICO_fk" physicalName="VEICULOS_HISTORICO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP44" populated="true" UUID="dbe65137-d736-46ca-9285-d5e0a375ecba" fk-column-ref="COL38" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="354" y="230" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB18" x="45" y="248" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB29" x="613" y="255" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL41" pkConnection="0.4711111111111111" fkConnection="0.5390070921985816" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL43" pkConnection="0.48444444444444446" fkConnection="0.5161290322580645" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
